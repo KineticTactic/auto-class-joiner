@@ -1,0 +1,9 @@
+{
+    "Mon": ["english", "language", "maths", "chemistry", "physics"],
+    "Tue": ["language", "english", "maths", "biology", "history"],
+    "Wed": ["chemistry", "computer", "english", "maths", "geography"],
+    "Thu": ["computer", "maths", "history", "physics", "biology"],
+    "Fri": ["geography", "maths", "physics", "english", "chemistry"],
+    "Sat": ["", "", "", "", ""],
+    "Sun": ["", "", "", "", ""]
+}

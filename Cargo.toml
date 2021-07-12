@@ -1,0 +1,18 @@
+[package]
+name = "auto-class-joiner"
+version = "0.1.0"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+notify-rust = "4"
+serde_json = "1.0"
+job_scheduler = "*"
+cronjob = "*"
+chrono = "*"
+webbrowser = "*"
+winapi = {version = "*", features = ["wincon", "winuser"]}
+
+[features]
+hide_console = []
