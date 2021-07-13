@@ -2,6 +2,8 @@
 
 A simple program written in Rust to join classes automatically.
 
+Credit to [tduck973564](https://github.com/tduck973564) for refactoring the code and building for Linux.
+
 ## Installation
 
 ### Windows
