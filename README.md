@@ -19,6 +19,10 @@ Steps:
 
 The program should start from the next boot. It should display a notification if it started successfully.
 
+### Linux
+
+I have full faith that you know what you are doing.
+
 ## Configuration
 
 -   Open the folder where you unzipped the folder
