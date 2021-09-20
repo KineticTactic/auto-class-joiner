@@ -6,11 +6,11 @@ use std::process;
 use webbrowser;
 
 pub fn run() {
-    hide_windows_console_window();
-
     let classes = Class::new();
 
     for class in classes {
+        println!("Loading class {} at {}:{} with url {}", class.name, class.hour, class.minute, class.link);
+
         let minute = &class.minute.clone();
         let hour = &class.hour.clone();
 
@@ -31,6 +31,12 @@ pub fn run() {
 
         CronJob::start_job_threaded(job);
     }
+
+    send_notif("auto-class-joiner has started successfully!");
+
+    println!("Freeing Console Window...");
+    hide_windows_console_window();
+
 }
 
 pub struct Class {
