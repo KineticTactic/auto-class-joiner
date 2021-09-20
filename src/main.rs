@@ -1,8 +1,10 @@
 mod lib;
 use crate::lib::*;
 
-fn main() -> ! {
+fn main() {
     println!("Starting Auto Class Joiner...");
     run();
-    loop {}
+    loop {
+        std::thread::sleep(std::time::Duration::from_millis(500));
+    }
 }
